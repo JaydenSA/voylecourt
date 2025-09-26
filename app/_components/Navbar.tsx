@@ -8,7 +8,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-40 w-full bg-black/20 backdrop-blur-sm">
       <div className="mx-auto max-w-7xl px-6 py-2 md:py-3 flex items-center justify-between gap-4">
         <div className="flex items-center gap-3">
-          <Image src="/Logo.png" alt="Voyle Court" width={600} height={600} className="h-12 w-12 md:h-20 md:w-20 object-contain invert" />
+          <Image src="/Logo.png" alt="Voyle Court" width={600} height={600} className="h-14 w-14 md:h-20 md:w-20 object-contain invert" />
         </div>
         <nav className="hidden md:flex items-center gap-6 text-sm md:text-base text-white/90">
           <a href="#" className="transition-colors hover:text-white focus:outline-none focus-visible:text-white">Parking Form</a>
@@ -27,8 +27,8 @@ export default function Navbar() {
       {open && (
         <div className="md:hidden border-t border-white/10 bg-black/30">
           <div className="mx-auto max-w-7xl px-6 py-3 flex flex-col gap-2 text-white/90">
-            <a href="#" className="py-2 transition-colors hover:text-white">Parking Form</a>
-            <a href="#" className="py-2 transition-colors hover:text-white">Rules & Regulations</a>
+            <a href="#" className="py-2 transition-colors hover:text-white">Parking Application Form</a>
+            <a href="#" className="py-2 transition-colors hover:text-white">Conduct Rules</a>
           </div>
         </div>
       )}
